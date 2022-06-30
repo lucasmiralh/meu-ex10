@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgb(113, 68, 37), rgb(121, 47, 240), rgba(213, 113, 198, 0.427));
+        }
+        
+        header {
+            padding-top: 40px;
+        }
+        
+        h1 {
+            font: normal 10px;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        
+        section {
+            background-color: antiquewhite;
+            border-radius: 8px 8px 8px 8px;
+            width: 500px;
+            padding: 10px;
+            box-shadow: 2px 2px 2px 0px black;
+            padding: 30px;
+        }
+        
+        div {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        footer {
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: overline;
+            padding: 60px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: rgba(175, 114, 176, 0.841);
+        }
+    </style>
+    <title>vamos contar </title>
+</head>
+
+<body>
+    <header>
+        <h1>super contador</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>inicio: <input type="number" name="inicio" id="txti"></p>
+            <p>fim: <input type="number" name="fim" id="txtf"></p>
+            <p>passo: <input type="number" name="passo" id="txtp"></p>
+            <p><input type="button" value="contar" onclick="contar()"></p>
+        </div>
+        <div id="res">preparando a contagem...!</div>
+    </section>
+    <footer>
+        <p>&copy;<strong><a href="">cursoemvideo</a></strong></p>
+    </footer>
+    <script src="Script.js ">
+    </script>
+</body>
+
+</html>
